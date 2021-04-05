@@ -1,4 +1,7 @@
 'use strict';
+alert("welcome to my website")
+let userName = prompt("what's your name?")
+alert('hi ' + userName +", A warm welcome to the website!")
 let ageMe = prompt("do you think that iam 25 years old?")
 ageMe = ageMe.toLowerCase();
 
@@ -78,3 +81,4 @@ switch(fooTball){
         alert("that's wrong ")
         break;
 } 
+alert('hi '+ userName + "  Thanks for visiting my website, we really appreciate your interest")
