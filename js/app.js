@@ -83,6 +83,7 @@ qusetion3();
 qusetion4();
  let fooTball = prompt("do you think that i like football?")
  fooTball = fooTball.toLowerCase();
+ function qusetion5(){
  switch(fooTball){
      case 'yes':
      case 'y':
@@ -97,6 +98,8 @@ qusetion4();
          alert("that's wrong ")
          break;
  } 
+}
+qusetion5();
 alert('hi '+ userName + "  Thanks for visiting my website, we really appreciate your interest")
 
 let counter =1;
