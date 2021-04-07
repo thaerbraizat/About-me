@@ -104,7 +104,7 @@ alert('hi '+ userName + "  Thanks for visiting my website, we really appreciate 
 
 let counter =1;
 let quessNumber = prompt("guess a number plz")
-
+function qusetion6(){
 while(parseInt(quessNumber) !== 10 && counter !== 5 ){
      
             counter++;
@@ -126,6 +126,9 @@ if(quessNumber == 10){
     score++;
     alert("you are right")
    }
+}
+qusetion6();
+
 let correctColor = ['red', 'black','white' ];
 let answer = prompt(' what Do you think my favorite color ?');
 answer=answer.toLowerCase();
