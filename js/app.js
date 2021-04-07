@@ -45,6 +45,7 @@ function qusetion2(){
 qusetion2();
  let olDer = prompt("do you think that i love computer games?")
  olDer = olDer.toLowerCase();
+ function qusetion3(){
  switch(olDer){
      case 'yes':
      case 'y':
@@ -59,6 +60,8 @@ qusetion2();
          alert("that's wrong ")
          break;
  } 
+}
+qusetion3();
  let doTa= prompt("do you think that iam dota player?")
  doTa = doTa.toLowerCase();
  switch(doTa){
