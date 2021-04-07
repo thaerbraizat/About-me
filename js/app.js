@@ -5,7 +5,7 @@
  alert('hi ' + userName +", A warm welcome to the website!")
  let ageMe = prompt("do you think that iam 25 years old?")
  ageMe = ageMe.toLowerCase();
-
+function qusetion1(){
  switch(ageMe){
      case 'yes':
      case 'y':
@@ -21,6 +21,8 @@
          alert("that's wrong ")
         break;
 } 
+}
+qusetion1();
 
 let musIc = prompt("do you think that i like music?")
  musIc = musIc.toLowerCase();
