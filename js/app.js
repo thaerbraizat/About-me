@@ -116,17 +116,17 @@ if(quessNumber == 10){
 let correctColor = ['red', 'black','white' ];
 let answer = prompt(' what Do you think my favorite color ?');
 answer=answer.toLowerCase();
-for(let j=0;j<6;j++){
+for(let j=0;j<5;j++){
 for (let i = 0; i<correctColor.length; i++) {
     console.log(answer,correctColor[i]);
   if ( answer === correctColor[i]){
-      j=6;
+      j=5;
       score++;
       console.log(j);
       break;
 }  
 }
-if(j !== 6){
+if(j !== 5){
 answer = prompt(' what Do you think my favorite color ?');
 }
 }
