@@ -132,6 +132,7 @@ qusetion6();
 let correctColor = ['red', 'black','white' ];
 let answer = prompt(' what Do you think my favorite color ?');
 answer=answer.toLowerCase();
+function qusetion7(){
 for(let j=0;j<5;j++){
 for (let i = 0; i<correctColor.length; i++) {
     console.log(answer,correctColor[i]);
@@ -146,6 +147,8 @@ if(j !== 5){
 answer = prompt(' what Do you think my favorite color ?');
 }
 }
+}
+qusetion7();
 alert( 'my favorite colors is  ' + correctColor);
 alert('your score is ' + score);
 
