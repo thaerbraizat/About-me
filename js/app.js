@@ -26,7 +26,7 @@ qusetion1();
 
 let musIc = prompt("do you think that i like music?")
  musIc = musIc.toLowerCase();
-
+function qusetion2(){
  switch(musIc){
      case 'yes':
      case 'y':
@@ -41,6 +41,8 @@ let musIc = prompt("do you think that i like music?")
          alert("that's wrong ")
          break;
  } 
+}
+qusetion2();
  let olDer = prompt("do you think that i love computer games?")
  olDer = olDer.toLowerCase();
  switch(olDer){
